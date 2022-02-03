@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prueba de datos</title>
+</head>
+<body>
+	<h3>select de una tabla</h3>
+	<form action="selectTabla.php">
+			<input type="submit" value="Enviar">
+
+	</form>
+
+
+	<h3>select de una tabla con WHERE</h3>
+	<form action="where.php" method="get">
+		<input type="text" name="id">
+			<input type="submit" value="Enviar">
+
+	</form>
+
+
+	<h3>select de una tabla con WHERE menor columna</h3>
+	<form action="wheremenor.php" method="get">
+		<input type="text" name="menor">
+			<input type="submit" value="Enviar">
+
+	</form>
+
+	<h3>INSERT en una tabla</h3>
+	<form action="insertaTabla.php" method="get">
+		valor col 1:<input type="" name="col1"><br>
+		valor col 2:<input type="" name="col2"><br>
+		valor col 3:<input type="" name="col3"><br>
+			<input type="submit" value="Enviar">
+
+	</form>
+
+	<h3>DELETE en una tabla</h3>
+	<form action="borrarRegistro.php" method="get">
+		id:<input type="text" name="id">
+			<input type="submit" value="Enviar">
+
+	</form>
+
+	<h3>UPDATE en una tabla</h3>
+	<form action="modificarRegistroTabla.php" method="get">
+		id:<input type="text" name="id"><br>
+		valor col 1:<input type="" name="col1"><br>
+		valor col 2:<input type="" name="col2"><br>
+		valor col 3:<input type="" name="col3"><br>
+			<input type="submit" value="Enviar">
+
+	</form>
+	<h3>INTERFAZ en una tabla</h3>
+	<form action="interfazTabla.php" method="get">
+		
+		valor col 1:<input type="" name="col1"><br>
+		valor col 2:<input type="" name="col2"><br>
+		valor col 3:<input type="" name="col3"><br>
+			<input type="submit" value="Enviar">
+
+	</form>
+	
+	
+	
+
+</body>
+</html>
